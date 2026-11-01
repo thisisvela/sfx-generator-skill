@@ -1,0 +1,33 @@
+{
+ "id": "whoosh_short",
+ "recipe": "whoosh",
+ "params": {
+  "d": 0.45,
+  "peak": 0.5,
+  "f_start": 380.0,
+  "f_peak": 3000.0,
+  "f_end": 700.0,
+  "q_start": 1.0,
+  "q_peak": 1.6,
+  "q_end": 1.1,
+  "pan_from": 0.45,
+  "pan_to": -0.45,
+  "body": 0.25,
+  "air": 0.15,
+  "lowpass_hz": 9500,
+  "seed": 11
+ },
+ "family": "cinematic",
+ "category": "transition",
+ "use": "a quick slide transition",
+ "what": "Band-passed noise swept up and back down in 0.45 s, panned right to left.",
+ "lead": 0.105,
+ "level_lu": -4,
+ "tags": [
+  "swish",
+  "quick",
+  "slide",
+  "whip"
+ ],
+ "loop": false
+}

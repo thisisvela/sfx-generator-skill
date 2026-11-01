@@ -1,0 +1,25 @@
+{
+ "id": "swell",
+ "recipe": "swell",
+ "params": {
+  "d": 1.2,
+  "hp_hz": 1800,
+  "wet": 0.9,
+  "damp_hz": 7000,
+  "lowpass_hz": 8500,
+  "seed": 4
+ },
+ "family": "cinematic",
+ "category": "anticipation",
+ "use": "a reverse swell that ends ON the cue",
+ "what": "A reversed, reverberated noise burst, like a reverse cymbal (ends on the cue).",
+ "lead": 1.2,
+ "level_lu": -4,
+ "tags": [
+  "reverse cymbal",
+  "build",
+  "suck",
+  "anticipation"
+ ],
+ "loop": false
+}

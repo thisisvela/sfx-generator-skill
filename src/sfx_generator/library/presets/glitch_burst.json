@@ -1,0 +1,27 @@
+{
+ "id": "glitch_burst",
+ "recipe": "glitch_burst",
+ "params": {
+  "d": 0.38,
+  "count": 5,
+  "f_lo": 320,
+  "f_hi": 1400,
+  "crush": 6,
+  "band_hz": 1800,
+  "seed": 10
+ },
+ "family": "cinematic",
+ "category": "negative",
+ "use": "a broken or inconsistent state (0.4 s stutter)",
+ "what": "Five short band-limited square bursts with gaps, lightly bit-crushed (0.4 s).",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "stutter",
+  "digital",
+  "broken",
+  "corrupt",
+  "static"
+ ],
+ "loop": false
+}

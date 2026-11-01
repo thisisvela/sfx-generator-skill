@@ -1,0 +1,23 @@
+{
+ "id": "jump",
+ "recipe": "jump",
+ "params": {
+  "f0": 280,
+  "f1": 900,
+  "d": 0.28,
+  "seed": 354
+ },
+ "family": "game",
+ "category": "emphasis",
+ "use": "the player jumps",
+ "what": "A quick rising boing with a soft push of air.",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "hop",
+  "leap",
+  "boing",
+  "platformer"
+ ],
+ "loop": false
+}

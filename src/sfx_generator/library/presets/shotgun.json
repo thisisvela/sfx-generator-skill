@@ -1,0 +1,24 @@
+{
+ "id": "shotgun",
+ "recipe": "shotgun",
+ "params": {
+  "blast": 1.0,
+  "pump_gap": 0.55,
+  "tail_tau": 0.25,
+  "seed": 326
+ },
+ "family": "game",
+ "category": "emphasis",
+ "use": "a shotgun blast and the pump",
+ "what": "A wide low blast with a long noise tail, then click-clack.",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "gun",
+  "blast",
+  "pump",
+  "shot"
+ ],
+ "loop": false,
+ "presence": 0.6
+}

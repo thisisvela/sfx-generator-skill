@@ -1,0 +1,25 @@
+{
+ "id": "tick_double",
+ "recipe": "tick_double",
+ "params": {
+  "f1": 3300,
+  "f2": 3700,
+  "gap": 0.055,
+  "body": 0.5,
+  "noise": 0.6,
+  "seed": 106
+ },
+ "family": "interface",
+ "category": "emphasis",
+ "use": "a pair of items, a check mark drawn",
+ "what": "Two ticks 55 ms apart, the second a step higher (a check mark being drawn).",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "check",
+  "tick tick",
+  "pair",
+  "done"
+ ],
+ "loop": false
+}

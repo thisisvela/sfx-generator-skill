@@ -1,0 +1,25 @@
+{
+ "id": "hurt",
+ "recipe": "hurt",
+ "params": {
+  "f0": 420,
+  "f1": 230,
+  "d": 0.28,
+  "lowpass_hz": 2200,
+  "seed": 333
+ },
+ "family": "game",
+ "category": "negative",
+ "use": "the player takes damage",
+ "what": "A short buzzy tone that drops, with a little noise.",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "damage",
+  "oof",
+  "pain",
+  "lose health",
+  "hit"
+ ],
+ "loop": false
+}

@@ -1,0 +1,27 @@
+{
+ "id": "pop",
+ "recipe": "pop",
+ "params": {
+  "d": 0.16,
+  "f0": 600,
+  "f1": 900,
+  "tc": 0.03,
+  "tau": 0.028,
+  "second": 0.18,
+  "click": 0.25,
+  "seed": 101
+ },
+ "family": "interface",
+ "category": "appear",
+ "use": "an important element lands (not every pop-in)",
+ "what": "A round bubble pop: a sine that jumps up in pitch as it dies away, with a soft click on top.",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "bubble",
+  "appear",
+  "bloop",
+  "pop-in"
+ ],
+ "loop": false
+}

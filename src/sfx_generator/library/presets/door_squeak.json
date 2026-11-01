@@ -1,0 +1,26 @@
+{
+ "id": "door_squeak",
+ "recipe": "door_squeak",
+ "params": {
+  "d": 1.0,
+  "f0": 1300,
+  "f1": 2100,
+  "wobble": 1.0,
+  "seed": 348
+ },
+ "family": "game",
+ "category": "emphasis",
+ "use": "a squeaky hinge; something old opens slowly",
+ "what": "A long wavering squeal, high and uneven.",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "door",
+  "creak",
+  "hinge",
+  "squeal",
+  "rusty",
+  "horror"
+ ],
+ "loop": false
+}

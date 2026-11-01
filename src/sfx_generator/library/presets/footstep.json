@@ -1,0 +1,22 @@
+{
+ "id": "footstep",
+ "recipe": "footstep",
+ "params": {
+  "surface_hz": 1800,
+  "heavy": 1.0,
+  "seed": 352
+ },
+ "family": "game",
+ "category": "ui",
+ "use": "one footstep on a hard floor",
+ "what": "A heel, a toe and a little body.",
+ "lead": 0.0,
+ "level_lu": -6,
+ "tags": [
+  "step",
+  "walk",
+  "floor",
+  "foot"
+ ],
+ "loop": false
+}

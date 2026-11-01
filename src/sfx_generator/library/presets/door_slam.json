@@ -1,0 +1,24 @@
+{
+ "id": "door_slam",
+ "recipe": "door_slam",
+ "params": {
+  "f": 85,
+  "rattle": 0.6,
+  "wet": 0.18,
+  "seed": 349
+ },
+ "family": "game",
+ "category": "reveal",
+ "use": "a door slams shut",
+ "what": "A heavy thud, a wooden body, a rattle of the frame and a short room.",
+ "lead": 0.0,
+ "level_lu": -2,
+ "tags": [
+  "door",
+  "slam",
+  "shut",
+  "bang",
+  "thud"
+ ],
+ "loop": false
+}

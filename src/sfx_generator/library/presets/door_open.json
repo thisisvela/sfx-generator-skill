@@ -1,0 +1,26 @@
+{
+ "id": "door_open",
+ "recipe": "door_open",
+ "params": {
+  "d": 0.9,
+  "f0": 160,
+  "f1": 240,
+  "wobble": 0.6,
+  "latch": 0.8,
+  "seed": 346
+ },
+ "family": "game",
+ "category": "emphasis",
+ "use": "a door opens",
+ "what": "A latch click, a slow creak of the hinge, and a soft stop.",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "door",
+  "creak",
+  "hinge",
+  "open",
+  "enter"
+ ],
+ "loop": false
+}

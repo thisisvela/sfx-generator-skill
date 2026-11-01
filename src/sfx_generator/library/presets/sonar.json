@@ -1,0 +1,26 @@
+{
+ "id": "sonar",
+ "recipe": "sonar",
+ "params": {
+  "f": 1200,
+  "tau": 0.12,
+  "tail": 1.6,
+  "wet": 0.5,
+  "damp_hz": 2500,
+  "seed": 243
+ },
+ "family": "interface",
+ "category": "question",
+ "use": "a probe, a search, waiting for a reply",
+ "what": "A 1.2 kHz sine ping in a long, dark reverb.",
+ "lead": 0.0,
+ "level_lu": -2,
+ "tags": [
+  "ping",
+  "submarine",
+  "echo",
+  "probe",
+  "search"
+ ],
+ "loop": false
+}

@@ -1,0 +1,25 @@
+{
+ "id": "hammer",
+ "recipe": "hammer",
+ "params": {
+  "count": 1,
+  "interval": 0.5,
+  "ring_hz": 3300,
+  "wood": 0.7,
+  "seed": 350
+ },
+ "family": "game",
+ "category": "emphasis",
+ "use": "a hammer on a nail; building",
+ "what": "A hard tap, a bright ring, a wooden body underneath.",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "nail",
+  "build",
+  "carpenter",
+  "tool",
+  "tap"
+ ],
+ "loop": false
+}

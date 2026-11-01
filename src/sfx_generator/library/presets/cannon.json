@@ -1,0 +1,27 @@
+{
+ "id": "cannon",
+ "recipe": "cannon",
+ "params": {
+  "d": 1.2,
+  "f0": 95,
+  "f1": 34,
+  "thump": 0.8,
+  "tail": 1.6,
+  "wet": 0.28,
+  "seed": 323
+ },
+ "family": "game",
+ "category": "reveal",
+ "use": "a cannon fires",
+ "what": "A hard low boom with a mid thump and a long tail.",
+ "lead": 0.0,
+ "level_lu": -2,
+ "tags": [
+  "artillery",
+  "boom",
+  "pirate",
+  "fire"
+ ],
+ "loop": false,
+ "presence": 0.6
+}

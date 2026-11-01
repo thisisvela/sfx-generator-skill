@@ -1,0 +1,31 @@
+{
+ "id": "riser",
+ "recipe": "riser",
+ "params": {
+  "d": 2.0,
+  "f_start": 180,
+  "f_end": 5200,
+  "f_start_r": 200,
+  "f_end_r": 5600,
+  "tone_start": 110,
+  "tone_end": 440,
+  "det_hi": 1.007,
+  "det_lo": 0.994,
+  "tone_amp": 0.32,
+  "curve": 2.6,
+  "seed": 3
+ },
+ "family": "cinematic",
+ "category": "anticipation",
+ "use": "two seconds of build-up that ends ON the cue; rare",
+ "what": "Noise and a detuned tone rising together over 2 s (ends on the cue).",
+ "lead": 2.0,
+ "level_lu": -4,
+ "tags": [
+  "build-up",
+  "tension",
+  "anticipation",
+  "drone"
+ ],
+ "loop": false
+}

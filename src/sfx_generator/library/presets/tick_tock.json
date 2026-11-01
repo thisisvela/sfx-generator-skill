@@ -1,0 +1,25 @@
+{
+ "id": "tick_tock",
+ "recipe": "tick_tock",
+ "params": {
+  "f1": 1400,
+  "f2": 1100,
+  "interval": 0.4,
+  "count": 4,
+  "seed": 224
+ },
+ "family": "foley",
+ "category": "emphasis",
+ "use": "a clock; time passing",
+ "what": "Four alternating woodblock ticks at two pitches, 0.4 s apart.",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "clock",
+  "timer",
+  "time",
+  "wood",
+  "waiting"
+ ],
+ "loop": false
+}

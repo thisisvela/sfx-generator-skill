@@ -1,0 +1,26 @@
+{
+ "id": "machine_gun",
+ "recipe": "machine_gun",
+ "params": {
+  "count": 8,
+  "rate": 0.085,
+  "jitter": 0.004,
+  "bright": 2200,
+  "seed": 325
+ },
+ "family": "game",
+ "category": "emphasis",
+ "use": "a burst of automatic fire",
+ "what": "Eight seeded shots 85 ms apart with small variations.",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "gun",
+  "automatic",
+  "burst",
+  "bullets",
+  "rifle",
+  "rapid"
+ ],
+ "loop": false
+}

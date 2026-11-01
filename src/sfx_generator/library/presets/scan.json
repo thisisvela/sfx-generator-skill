@@ -1,0 +1,26 @@
+{
+ "id": "scan",
+ "recipe": "scan",
+ "params": {
+  "d": 0.6,
+  "f_start": 400,
+  "f_end": 2400,
+  "tremolo_hz": 18,
+  "depth": 0.5,
+  "seed": 242
+ },
+ "family": "interface",
+ "category": "emphasis",
+ "use": "scanning, searching, a progress sweep",
+ "what": "A rising sine sweep (400 -> 2,400 Hz) with an 18 Hz tremolo.",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "search",
+  "progress",
+  "radar",
+  "sweep",
+  "analyse"
+ ],
+ "loop": false
+}

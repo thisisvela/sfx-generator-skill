@@ -1,0 +1,27 @@
+{
+ "id": "heartbeat",
+ "recipe": "heartbeat",
+ "params": {
+  "f": 110,
+  "knock": 0.9,
+  "body": 0.8,
+  "gap": 0.28,
+  "tau": 0.1,
+  "d": 0.8,
+  "seed": 223
+ },
+ "family": "foley",
+ "category": "emphasis",
+ "use": "tension, a pulse, something alive",
+ "what": "Two thumps, lub-dub, with a mid-range valve knock and a chest body so it reads on small speakers.",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "pulse",
+  "heart",
+  "tension",
+  "alive",
+  "lub dub"
+ ],
+ "loop": false
+}

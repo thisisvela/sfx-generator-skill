@@ -1,0 +1,24 @@
+{
+ "id": "arrow",
+ "recipe": "arrow",
+ "params": {
+  "flight": 0.45,
+  "twang": 0.7,
+  "thunk": 1.0,
+  "seed": 329
+ },
+ "family": "game",
+ "category": "emphasis",
+ "use": "an arrow is loosed and lands; lead so the thunk lands on the cue",
+ "what": "The bow's twang, a short rising whoosh of flight, and a wooden thunk.",
+ "lead": 0.47,
+ "level_lu": -4,
+ "tags": [
+  "bow",
+  "archer",
+  "shoot",
+  "twang",
+  "thunk"
+ ],
+ "loop": false
+}

@@ -1,0 +1,25 @@
+{
+ "id": "typing",
+ "recipe": "typing",
+ "params": {
+  "count": 10,
+  "gap_lo": 0.06,
+  "gap_hi": 0.13,
+  "width": 0.3,
+  "seed": 212
+ },
+ "family": "foley",
+ "category": "ui",
+ "use": "text being typed; a terminal filling",
+ "what": "Ten seeded keystrokes with varied pitch, loudness and gaps.",
+ "lead": 0.0,
+ "level_lu": -6,
+ "tags": [
+  "keyboard",
+  "type",
+  "writing",
+  "terminal",
+  "input"
+ ],
+ "loop": false
+}

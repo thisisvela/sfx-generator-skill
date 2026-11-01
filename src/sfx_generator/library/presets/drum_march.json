@@ -1,0 +1,26 @@
+{
+ "id": "drum_march",
+ "recipe": "drum_march",
+ "params": {
+  "tempo": 0.3,
+  "roll_len": 0.6,
+  "snare": 1.0,
+  "seed": 360
+ },
+ "family": "game",
+ "category": "emphasis",
+ "use": "troops march; a military cadence, a command given",
+ "what": "Four snare strokes and a roll, the pattern of a march.",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "snare",
+  "military",
+  "army",
+  "march",
+  "cadence",
+  "drum",
+  "command"
+ ],
+ "loop": false
+}

@@ -1,0 +1,31 @@
+{
+ "id": "blacksmith",
+ "recipe": "blacksmith",
+ "params": {
+  "count": 4,
+  "interval": 0.45,
+  "ting_hz": 3600,
+  "ting": 0.6,
+  "buzz_hz": 620,
+  "buzz": 1.0,
+  "beat": 24,
+  "decay": 0.35,
+  "wet": 0.2,
+  "seed": 351
+ },
+ "family": "game",
+ "category": "emphasis",
+ "use": "a smith at the anvil; forging, crafting",
+ "what": "Four hammer blows on steel: a hard clank, a very short high ping off the anvil, and the iron's buzzing vibration fading after each; in a stone room.",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "anvil",
+  "forge",
+  "craft",
+  "smith",
+  "metal",
+  "hammer"
+ ],
+ "loop": false
+}

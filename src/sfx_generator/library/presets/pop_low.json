@@ -1,0 +1,27 @@
+{
+ "id": "pop_low",
+ "recipe": "pop_low",
+ "params": {
+  "d": 0.2,
+  "f0": 330,
+  "f1": 520,
+  "tc": 0.035,
+  "tau": 0.04,
+  "thump": 0.45,
+  "click": 0.18,
+  "seed": 102
+ },
+ "family": "interface",
+ "category": "appear",
+ "use": "a heavier element lands",
+ "what": "A heavier pop: lower and rounder, with a little sub thump.",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "bubble",
+  "heavy",
+  "thud",
+  "land"
+ ],
+ "loop": false
+}

@@ -1,0 +1,40 @@
+{
+ "id": "thunder",
+ "recipe": "thunder",
+ "params": {
+  "approach": 2.5,
+  "rumble": 1.0,
+  "clusters": 3,
+  "per_cluster": 3,
+  "hit": 1.0,
+  "clap": 1.0,
+  "clap_gain": 6.0,
+  "rip": 0.0,
+  "roll": 3.2,
+  "roar": 1.0,
+  "overlap": 0.6,
+  "backoff": 0.9,
+  "grow": 1.1,
+  "peal": 0.5,
+  "surge": 0.5,
+  "tail": 3.0,
+  "wet": 0.25,
+  "seed": 305
+ },
+ "family": "nature",
+ "category": "reveal",
+ "use": "a thunder strike; put the flash 2.5 s in (or set approach to 0 to start on the hit); fear, the dark, a dramatic turn",
+ "what": "A slow distant rumble for 2.5 s, then three clusters of strikes at irregular intervals, two or three in each, every strike a short loud rumble (six times the roll's level, 40 % of its length) collapsing into its own rumble that rolls in slow waves, a secondary peal seconds later, a rumble bed under it all; a long dark reverb. Built to the numbers of real recordings: the weight at 80-250 Hz, the rumble a pile of arrivals. Mastered huge.",
+ "lead": 2.5,
+ "level_lu": 5,
+ "tags": [
+  "storm",
+  "lightning",
+  "weather",
+  "rumble",
+  "boom"
+ ],
+ "loop": false,
+ "mood": "huge",
+ "presence": 0.0
+}

@@ -1,0 +1,23 @@
+{
+ "id": "chest_open",
+ "recipe": "chest_open",
+ "params": {
+  "creak": 0.5,
+  "sparkle": 0.6,
+  "seed": 356
+ },
+ "family": "game",
+ "category": "positive",
+ "use": "a chest opens; treasure found",
+ "what": "A latch, a short creak of the lid, then a rising sparkle of treasure.",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "treasure",
+  "loot",
+  "chest",
+  "reward",
+  "open"
+ ],
+ "loop": false
+}

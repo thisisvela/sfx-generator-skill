@@ -1,0 +1,26 @@
+{
+ "id": "heal",
+ "recipe": "heal",
+ "params": {
+  "root": 1046.5,
+  "step": 0.16,
+  "attack": 0.02,
+  "sparkle": 0.3,
+  "wet": 0.25,
+  "seed": 343
+ },
+ "family": "game",
+ "category": "positive",
+ "use": "healing; a buff applied",
+ "what": "Three soft ascending bell notes with slow attacks and a gentle sparkle.",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "magic",
+  "cure",
+  "restore",
+  "buff",
+  "holy"
+ ],
+ "loop": false
+}

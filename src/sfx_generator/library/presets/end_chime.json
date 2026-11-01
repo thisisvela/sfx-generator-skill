@@ -1,0 +1,29 @@
+{
+ "id": "end_chime",
+ "recipe": "end_chime",
+ "params": {
+  "f1": 523.25,
+  "f2": 783.99,
+  "f3": 1046.5,
+  "spacing": 0.12,
+  "decay": 1.0,
+  "tail": 1.6,
+  "wet": 0.3,
+  "d": 2.4,
+  "seed": 9
+ },
+ "family": "cinematic",
+ "category": "end",
+ "use": "the end card",
+ "what": "Three soft bell tones (C5, G5, C6) a fifth and an octave apart.",
+ "lead": 0.0,
+ "level_lu": -1,
+ "tags": [
+  "outro",
+  "end card",
+  "bell",
+  "finish",
+  "resolve"
+ ],
+ "loop": false
+}

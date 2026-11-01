@@ -1,0 +1,25 @@
+{
+ "id": "switch",
+ "recipe": "switch",
+ "params": {
+  "f1": 1031,
+  "f2": 890,
+  "gap": 0.11,
+  "ring": 0.45,
+  "wet": 0.07,
+  "seed": 114
+ },
+ "family": "interface",
+ "category": "ui",
+ "use": "a mode or view switches",
+ "what": "A mechanical switch: click-clack with a short metallic ring after each.",
+ "lead": 0.0,
+ "level_lu": -6,
+ "tags": [
+  "mechanical",
+  "click-clack",
+  "mode",
+  "lever"
+ ],
+ "loop": false
+}

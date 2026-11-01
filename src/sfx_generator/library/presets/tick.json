@@ -1,0 +1,25 @@
+{
+ "id": "tick",
+ "recipe": "tick",
+ "params": {
+  "f": 3400,
+  "d": 0.04,
+  "body": 0.5,
+  "noise": 0.6,
+  "seed": 105
+ },
+ "family": "interface",
+ "category": "emphasis",
+ "use": "a counter step or one item of a list",
+ "what": "A crisp wooden tick: a 2 ms noise snap with a short 3.4 kHz ring and a little body under it.",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "counter",
+  "step",
+  "list",
+  "wood",
+  "tok"
+ ],
+ "loop": false
+}

@@ -1,0 +1,11 @@
+interface:
+  display_name: Make a sound effect
+  short_description: Turn a short description into a finished, measured sound effect (variants, audition page, WAV/OGG/MP3).
+  default_prompt: Make a sound effect for me. Start by asking what it is for if I have not said.
+policy:
+  allow_implicit_invocation: true
+dependencies:
+  tools:
+    - type: cli
+      value: sfx
+      description: The sfx-generator command (pip/uv/pipx install from github.com/thisisvela/sfx-generator-skill)

@@ -1,0 +1,26 @@
+{
+ "id": "pluck",
+ "recipe": "pluck",
+ "params": {
+  "f0": 1245,
+  "d": 0.22,
+  "damp": 0.993,
+  "bright": 0.75,
+  "tau": 0.06,
+  "click": 0.2,
+  "seed": 104
+ },
+ "family": "interface",
+ "category": "appear",
+ "use": "a label or value snaps in",
+ "what": "A bright plucked string (Karplus-Strong) around 1.25 kHz, with a short attack click.",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "string",
+  "snap",
+  "label",
+  "harp"
+ ],
+ "loop": false
+}

@@ -1,0 +1,26 @@
+{
+ "id": "error",
+ "recipe": "error",
+ "params": {
+  "f1": 466,
+  "f2": 330,
+  "gap": 0.085,
+  "d2": 0.16,
+  "lowpass_hz": 2600,
+  "seed": 120
+ },
+ "family": "interface",
+ "category": "negative",
+ "use": "something fails, a contradiction is shown",
+ "what": "A short, buzzy 'uh-oh': two square-ish tones stepping down a tritone (466 then 330 Hz).",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "uh-oh",
+  "fail",
+  "wrong",
+  "buzz",
+  "denied"
+ ],
+ "loop": false
+}

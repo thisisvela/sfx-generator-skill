@@ -1,0 +1,12 @@
+{
+  "name": "sfx-generator",
+  "version": "0.1.0",
+  "description": "Sound effects made in code. Two skills: make-sound-effect turns a short description into a finished, measured sound (variants, audition page, preset, WAV/OGG/MP3); create-sound-recipe adds a new recipe family when none fits. Deterministic numpy recipes. Apache 2.0: free to use anywhere, and you own what you generate.",
+  "author": {
+    "name": "Vela"
+  },
+  "homepage": "https://thisisvela.github.io/sfx-generator-skill/",
+  "repository": "https://github.com/thisisvela/sfx-generator-skill",
+  "license": "Apache-2.0",
+  "keywords": ["sound effects", "sfx", "audio", "synthesis", "explainer video", "ui sounds"]
+}

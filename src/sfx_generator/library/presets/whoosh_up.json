@@ -1,0 +1,33 @@
+{
+ "id": "whoosh_up",
+ "recipe": "whoosh",
+ "params": {
+  "d": 0.6,
+  "peak": 0.6,
+  "f_start": 300.0,
+  "f_peak": 2400.0,
+  "f_end": 1400.0,
+  "q_start": 0.9,
+  "q_peak": 1.4,
+  "q_end": 1.2,
+  "pan_from": 0.0,
+  "pan_to": 0.0,
+  "body": 0.25,
+  "air": 0.15,
+  "lowpass_hz": 9500,
+  "seed": 15
+ },
+ "family": "cinematic",
+ "category": "transition",
+ "use": "a rise transition (new topic)",
+ "what": "A sweep that rises and stays high, centred.",
+ "lead": 0.24,
+ "level_lu": -4,
+ "tags": [
+  "rise",
+  "new topic",
+  "lift",
+  "up"
+ ],
+ "loop": false
+}

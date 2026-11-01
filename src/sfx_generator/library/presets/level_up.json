@@ -1,0 +1,27 @@
+{
+ "id": "level_up",
+ "recipe": "level_up",
+ "params": {
+  "root": 1046.5,
+  "step": 0.05,
+  "note_d": 0.5,
+  "decay": 1.1,
+  "sparkle": 0.25,
+  "wet": 0.16,
+  "seed": 232
+ },
+ "family": "interface",
+ "category": "positive",
+ "use": "a milestone reached; a bigger win than success",
+ "what": "A fast rising five-note arpeggio with a shimmer on top.",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "milestone",
+  "achievement",
+  "unlock",
+  "win",
+  "fanfare"
+ ],
+ "loop": false
+}

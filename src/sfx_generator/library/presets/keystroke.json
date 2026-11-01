@@ -1,0 +1,23 @@
+{
+ "id": "keystroke",
+ "recipe": "keystroke",
+ "params": {
+  "bright": 2400,
+  "thock": 1100,
+  "d": 0.045,
+  "seed": 211
+ },
+ "family": "foley",
+ "category": "ui",
+ "use": "one key is pressed; a character is typed",
+ "what": "A plastic click with a short low thock under it.",
+ "lead": 0.0,
+ "level_lu": -6,
+ "tags": [
+  "key",
+  "type",
+  "keyboard",
+  "press"
+ ],
+ "loop": false
+}

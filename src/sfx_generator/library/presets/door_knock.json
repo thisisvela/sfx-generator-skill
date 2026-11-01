@@ -1,0 +1,23 @@
+{
+ "id": "door_knock",
+ "recipe": "door_knock",
+ "params": {
+  "count": 3,
+  "interval": 0.22,
+  "f": 180,
+  "seed": 347
+ },
+ "family": "game",
+ "category": "emphasis",
+ "use": "someone knocks at the door",
+ "what": "Three knocks, each a knuckle tap with a wooden body.",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "door",
+  "knock",
+  "visitor",
+  "wood"
+ ],
+ "loop": false
+}

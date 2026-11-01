@@ -1,0 +1,27 @@
+{
+ "id": "rain_loop",
+ "recipe": "rain_loop",
+ "params": {
+  "d": 6.0,
+  "intensity": 0.5,
+  "surface": 0.7,
+  "surface_hz": 160,
+  "drops": 25,
+  "hiss": 0.5,
+  "seed": 302
+ },
+ "family": "nature",
+ "category": "ambience",
+ "use": "steady rain under a scene (loop)",
+ "what": "Steady rain built to the numbers of real recordings: a falling roar between 250 Hz and 4 kHz, a roof band at 160 Hz, a granular drop texture and twenty-five drop ticks a second standing above the bed; a seamless 6 s loop.",
+ "lead": 0.0,
+ "level_lu": -16,
+ "tags": [
+  "rain",
+  "weather",
+  "storm",
+  "loop",
+  "bed"
+ ],
+ "loop": true
+}

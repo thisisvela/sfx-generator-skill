@@ -1,0 +1,25 @@
+{
+ "id": "question_alt",
+ "recipe": "question_alt",
+ "params": {
+  "f0": 988,
+  "interval": 1.5,
+  "slide": 0.2,
+  "d": 0.36,
+  "wet": 0.1,
+  "seed": 119
+ },
+ "family": "interface",
+ "category": "question",
+ "use": "a second question, later in the video",
+ "what": "A single tone sliding up a fifth, a lighter question.",
+ "lead": 0.0,
+ "level_lu": -2,
+ "tags": [
+  "hmm",
+  "ask",
+  "slide",
+  "wonder"
+ ],
+ "loop": false
+}

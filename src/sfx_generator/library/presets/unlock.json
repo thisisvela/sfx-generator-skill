@@ -1,0 +1,24 @@
+{
+ "id": "unlock",
+ "recipe": "unlock",
+ "params": {
+  "gap": 0.09,
+  "ring": 0.35,
+  "ring_hz": 2900,
+  "seed": 214
+ },
+ "family": "foley",
+ "category": "positive",
+ "use": "access granted; something opens",
+ "what": "A click, a lower clack and a short spring ring.",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "lock",
+  "open",
+  "access",
+  "key",
+  "latch"
+ ],
+ "loop": false
+}

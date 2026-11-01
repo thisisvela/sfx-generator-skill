@@ -1,0 +1,24 @@
+{
+ "id": "fireball",
+ "recipe": "fireball",
+ "params": {
+  "d": 0.9,
+  "crackle": 0.6,
+  "boom": 0.8,
+  "seed": 342
+ },
+ "family": "game",
+ "category": "reveal",
+ "use": "a fireball flies and lands; lead so the boom lands on the cue",
+ "what": "A low whoosh with crackle that builds and lands in a soft boom.",
+ "lead": 0.9,
+ "level_lu": -2,
+ "tags": [
+  "magic",
+  "fire",
+  "flame",
+  "projectile",
+  "boom"
+ ],
+ "loop": false
+}

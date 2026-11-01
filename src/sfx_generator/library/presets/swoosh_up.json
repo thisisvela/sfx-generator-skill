@@ -1,0 +1,29 @@
+{
+ "id": "swoosh_up",
+ "recipe": "swoosh_up",
+ "params": {
+  "d": 0.75,
+  "f_start": 260,
+  "f_end": 4200,
+  "q": 1.4,
+  "tone_start": 220,
+  "tone_end": 660,
+  "tone_amp": 0.12,
+  "curve": 2.2,
+  "width": 0.25,
+  "seed": 2
+ },
+ "family": "cinematic",
+ "category": "anticipation",
+ "use": "rises and lands ON the cue (a reveal)",
+ "what": "A short rising swoosh whose loudest moment is its last (end it ON the cue).",
+ "lead": 0.75,
+ "level_lu": -4,
+ "tags": [
+  "reveal",
+  "rise",
+  "build",
+  "land"
+ ],
+ "loop": false
+}

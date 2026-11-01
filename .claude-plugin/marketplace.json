@@ -1,0 +1,19 @@
+{
+  "name": "sfx-generator",
+  "owner": {
+    "name": "Vela"
+  },
+  "metadata": {
+    "description": "Sound effects made in code: a skill that turns a short description into a finished, measured sound, and one that adds new recipe families."
+  },
+  "plugins": [
+    {
+      "name": "sfx-generator",
+      "source": "./",
+      "description": "make-sound-effect (description -> variants, audition page, preset, WAV/OGG/MP3) and create-sound-recipe (add a recipe family). Deterministic numpy recipes. Apache 2.0: free to use anywhere, and you own what you generate.",
+      "version": "0.1.0",
+      "category": "audio",
+      "keywords": ["sound effects", "sfx", "audio", "synthesis"]
+    }
+  ]
+}

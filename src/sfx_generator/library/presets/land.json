@@ -1,0 +1,23 @@
+{
+ "id": "land",
+ "recipe": "land",
+ "params": {
+  "f": 110,
+  "scuff": 0.5,
+  "seed": 355
+ },
+ "family": "game",
+ "category": "emphasis",
+ "use": "the player lands",
+ "what": "A thump with a short scuff of dust.",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "landing",
+  "thud",
+  "fall",
+  "platformer"
+ ],
+ "loop": false,
+ "presence": 0.6
+}

@@ -1,0 +1,28 @@
+{
+ "id": "page_turn",
+ "recipe": "page_turn",
+ "params": {
+  "d": 0.35,
+  "f_start": 900,
+  "f_end": 400,
+  "attack": 0.02,
+  "tau": 0.12,
+  "pan_from": -0.3,
+  "pan_to": 0.3,
+  "seed": 221
+ },
+ "family": "foley",
+ "category": "transition",
+ "use": "a page or card flips",
+ "what": "A band-passed noise swish sliding 900 -> 400 Hz, quick attack, slow fall, left to right.",
+ "lead": 0.06,
+ "level_lu": -4,
+ "tags": [
+  "paper",
+  "flip",
+  "card",
+  "swish",
+  "next"
+ ],
+ "loop": false
+}

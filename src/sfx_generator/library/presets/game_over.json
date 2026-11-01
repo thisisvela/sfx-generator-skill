@@ -1,0 +1,25 @@
+{
+ "id": "game_over",
+ "recipe": "game_over",
+ "params": {
+  "root": 440,
+  "step": 0.4,
+  "tail": 1.8,
+  "seed": 358
+ },
+ "family": "game",
+ "category": "negative",
+ "use": "the run ends; game over",
+ "what": "Three slow falling notes over a low tone, in a long room.",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "lose",
+  "defeat",
+  "death",
+  "end",
+  "fail",
+  "sting"
+ ],
+ "loop": false
+}

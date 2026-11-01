@@ -1,0 +1,23 @@
+{
+ "id": "reload",
+ "recipe": "reload",
+ "params": {
+  "gap": 0.22,
+  "slide": 0.6,
+  "seed": 357
+ },
+ "family": "game",
+ "category": "ui",
+ "use": "a weapon reloads",
+ "what": "Click, a slide of metal, clack-clack: the magazine and the bolt.",
+ "lead": 0.0,
+ "level_lu": -6,
+ "tags": [
+  "gun",
+  "magazine",
+  "ammo",
+  "mechanical",
+  "bolt"
+ ],
+ "loop": false
+}

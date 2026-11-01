@@ -1,0 +1,28 @@
+{
+ "id": "war_horn",
+ "recipe": "war_horn",
+ "params": {
+  "f": 196,
+  "d": 1.8,
+  "open": 0.7,
+  "vibrato": 0.4,
+  "tail": 1.6,
+  "seed": 359
+ },
+ "family": "game",
+ "category": "reveal",
+ "use": "a battle begins; a rally, a command to charge",
+ "what": "A brass-like call that swells and opens, with a faint octave below.",
+ "lead": 0.0,
+ "level_lu": -2,
+ "tags": [
+  "horn",
+  "battle",
+  "army",
+  "charge",
+  "rally",
+  "command",
+  "brass"
+ ],
+ "loop": false
+}

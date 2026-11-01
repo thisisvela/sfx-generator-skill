@@ -1,0 +1,25 @@
+{
+ "id": "swell_down",
+ "recipe": "swell_down",
+ "params": {
+  "f0": 1640,
+  "f1": 1078,
+  "d": 0.28,
+  "air": 0.25,
+  "wet": 0.12,
+  "seed": 123
+ },
+ "family": "interface",
+ "category": "camera",
+ "use": "with a pull-back to the whole picture",
+ "what": "The mirror for a pull-back: gliding down from 1.64 to 1.08 kHz, swelling into the end.",
+ "lead": 0.0,
+ "level_lu": -7,
+ "tags": [
+  "pull-back",
+  "zoom out",
+  "settle",
+  "camera"
+ ],
+ "loop": false
+}

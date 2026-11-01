@@ -1,0 +1,26 @@
+{
+ "id": "explosion_distant",
+ "recipe": "explosion_distant",
+ "params": {
+  "d": 1.4,
+  "lowpass_hz": 500,
+  "tail": 2.6,
+  "wet": 0.45,
+  "seed": 322
+ },
+ "family": "game",
+ "category": "emphasis",
+ "use": "an explosion far away; artillery over the hill",
+ "what": "No crack, a soft low boom and a long rolling tail.",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "blast",
+  "bomb",
+  "far",
+  "artillery",
+  "rumble"
+ ],
+ "loop": false,
+ "presence": 0.6
+}

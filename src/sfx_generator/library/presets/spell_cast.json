@@ -1,0 +1,28 @@
+{
+ "id": "spell_cast",
+ "recipe": "spell_cast",
+ "params": {
+  "d": 1.1,
+  "f_start": 320,
+  "f_end": 2200,
+  "vibrato_hz": 7,
+  "sparkle": 0.5,
+  "wet": 0.35,
+  "seed": 341
+ },
+ "family": "game",
+ "category": "emphasis",
+ "use": "a spell is cast; magic",
+ "what": "A rising tone with vibrato under a cloud of sparkle, in a bright reverb.",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "magic",
+  "spell",
+  "wizard",
+  "cast",
+  "sparkle",
+  "enchant"
+ ],
+ "loop": false
+}

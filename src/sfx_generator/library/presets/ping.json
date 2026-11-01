@@ -1,0 +1,25 @@
+{
+ "id": "ping",
+ "recipe": "ping",
+ "params": {
+  "f0": 2015,
+  "decay": 1.0,
+  "strike": 0.12,
+  "wet": 0.12,
+  "d": 0.25,
+  "seed": 107
+ },
+ "family": "interface",
+ "category": "emphasis",
+ "use": "highlight a key value or word",
+ "what": "A small glass ping at 2 kHz: inharmonic partials that die quickly, in a small room.",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "glass",
+  "highlight",
+  "ting",
+  "sparkle"
+ ],
+ "loop": false
+}

@@ -1,0 +1,30 @@
+{
+ "id": "impact_soft",
+ "recipe": "impact",
+ "params": {
+  "d": 1.4,
+  "f0": 110,
+  "f1": 42,
+  "tau": 0.28,
+  "knock": 0.35,
+  "bright": 2600,
+  "tail": 1.0,
+  "wet": 0.22,
+  "seed": 21
+ },
+ "family": "cinematic",
+ "category": "reveal",
+ "use": "the key idea or result lands",
+ "what": "A falling sub tone, a low-passed knock, a band of body and a reverb tail.",
+ "lead": 0.0,
+ "level_lu": -2,
+ "tags": [
+  "boom",
+  "hit",
+  "thud",
+  "land",
+  "drop"
+ ],
+ "loop": false,
+ "presence": 0.6
+}

@@ -1,0 +1,27 @@
+{
+ "id": "gunshot",
+ "recipe": "gunshot",
+ "params": {
+  "bright": 2600,
+  "thump_hz": 150,
+  "crack": 1.0,
+  "tail_tau": 0.12,
+  "room": 0.18,
+  "seed": 324
+ },
+ "family": "game",
+ "category": "emphasis",
+ "use": "a pistol or rifle shot",
+ "what": "A snap, a mid crack, a low thump and a short slap-back.",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "gun",
+  "shot",
+  "pistol",
+  "rifle",
+  "bang",
+  "fire"
+ ],
+ "loop": false
+}

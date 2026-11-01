@@ -1,0 +1,26 @@
+{
+ "id": "countdown",
+ "recipe": "countdown",
+ "params": {
+  "f": 880,
+  "f_go": 1760,
+  "interval": 0.25,
+  "beep_d": 0.07,
+  "go_d": 0.3,
+  "seed": 203
+ },
+ "family": "interface",
+ "category": "anticipation",
+ "use": "three, two, one, go: the last beep lands on the cue",
+ "what": "Three short sine beeps and a higher, longer fourth.",
+ "lead": 1.05,
+ "level_lu": -4,
+ "tags": [
+  "timer",
+  "beep",
+  "three two one",
+  "start",
+  "go"
+ ],
+ "loop": false
+}

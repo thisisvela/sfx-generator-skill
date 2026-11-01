@@ -1,0 +1,26 @@
+{
+ "id": "sword_clash",
+ "recipe": "sword_clash",
+ "params": {
+  "f0": 1180,
+  "decay": 1.0,
+  "strike": 1.0,
+  "wet": 0.12,
+  "seed": 331
+ },
+ "family": "game",
+ "category": "emphasis",
+ "use": "two blades meet; a parry",
+ "what": "A sharp strike and an inharmonic metallic ring in a little room.",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "sword",
+  "blade",
+  "clang",
+  "parry",
+  "metal",
+  "clash"
+ ],
+ "loop": false
+}

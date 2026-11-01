@@ -1,0 +1,25 @@
+{
+ "id": "punch",
+ "recipe": "punch",
+ "params": {
+  "f": 120,
+  "slap": 0.6,
+  "tau": 0.07,
+  "seed": 332
+ },
+ "family": "game",
+ "category": "emphasis",
+ "use": "a punch lands; a body hit",
+ "what": "A low thump with a short slap on top.",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "hit",
+  "fist",
+  "impact",
+  "melee",
+  "thump"
+ ],
+ "loop": false,
+ "presence": 0.6
+}

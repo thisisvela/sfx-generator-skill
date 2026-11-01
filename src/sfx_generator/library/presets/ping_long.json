@@ -1,0 +1,25 @@
+{
+ "id": "ping_long",
+ "recipe": "ping_long",
+ "params": {
+  "f0": 1921,
+  "beat": 1.003,
+  "decay": 1.0,
+  "wet": 0.15,
+  "d": 0.55,
+  "seed": 109
+ },
+ "family": "interface",
+ "category": "emphasis",
+ "use": "a highlight that rings while the eye moves",
+ "what": "A ping that rings: 1.92 kHz with a slow beat between two close partials.",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "glass",
+  "ring",
+  "sustain",
+  "highlight"
+ ],
+ "loop": false
+}

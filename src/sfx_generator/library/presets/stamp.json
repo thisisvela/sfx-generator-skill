@@ -1,0 +1,26 @@
+{
+ "id": "stamp",
+ "recipe": "stamp",
+ "params": {
+  "thump_hz": 160,
+  "slap": 0.6,
+  "tau": 0.05,
+  "wet": 0.08,
+  "seed": 222
+ },
+ "family": "foley",
+ "category": "appear",
+ "use": "a label is stamped on; approved",
+ "what": "A low thump with a paper slap and a little body, in a small room.",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "approved",
+  "seal",
+  "thump",
+  "label",
+  "done"
+ ],
+ "loop": false,
+ "presence": 0.6
+}

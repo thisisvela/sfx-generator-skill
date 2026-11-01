@@ -1,0 +1,27 @@
+{
+ "id": "click",
+ "recipe": "click",
+ "params": {
+  "bright": 3000,
+  "thump": 140,
+  "release_gap": 0.03,
+  "bright2": 3600,
+  "thump2": 160,
+  "release_amp": 0.35,
+  "d": 0.07,
+  "seed": 111
+ },
+ "family": "interface",
+ "category": "ui",
+ "use": "a pointer clicks or a choice is selected",
+ "what": "A mouse click: a sharp press with a low thump, and a quieter release 30 ms later.",
+ "lead": 0.0,
+ "level_lu": -6,
+ "tags": [
+  "mouse",
+  "press",
+  "select",
+  "button"
+ ],
+ "loop": false
+}

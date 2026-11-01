@@ -1,0 +1,24 @@
+{
+ "id": "click_soft",
+ "recipe": "click_soft",
+ "params": {
+  "bright": 1800,
+  "thump": 110,
+  "lowpass_hz": 3500,
+  "d": 0.05,
+  "seed": 112
+ },
+ "family": "interface",
+ "category": "ui",
+ "use": "a very light click",
+ "what": "A very light, muffled click.",
+ "lead": 0.0,
+ "level_lu": -6,
+ "tags": [
+  "soft",
+  "subtle",
+  "tap",
+  "button"
+ ],
+ "loop": false
+}

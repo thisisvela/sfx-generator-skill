@@ -1,0 +1,24 @@
+{
+ "id": "ping_soft",
+ "recipe": "ping_soft",
+ "params": {
+  "f0": 1453,
+  "attack": 0.003,
+  "decay": 1.0,
+  "wet": 0.12,
+  "d": 0.25,
+  "seed": 108
+ },
+ "family": "interface",
+ "category": "emphasis",
+ "use": "a lighter highlight",
+ "what": "A lighter ping, lower (1.45 kHz) with a softer strike.",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "glass",
+  "soft",
+  "gentle highlight"
+ ],
+ "loop": false
+}

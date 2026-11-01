@@ -1,0 +1,26 @@
+{
+ "id": "bubble",
+ "recipe": "bubble",
+ "params": {
+  "count": 3,
+  "spread": 0.3,
+  "f_lo": 300,
+  "f_hi": 700,
+  "rise": 3.0,
+  "wet": 0.08,
+  "seed": 251
+ },
+ "family": "foley",
+ "category": "appear",
+ "use": "something floats up; a playful appear",
+ "what": "Three seeded fast upward sine glides, in a small room.",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "water",
+  "bloop",
+  "float",
+  "playful"
+ ],
+ "loop": false
+}

@@ -1,0 +1,28 @@
+{
+ "id": "rain_drops",
+ "recipe": "rain_drops",
+ "params": {
+  "count": 8,
+  "d": 1.2,
+  "water": 0.6,
+  "f_lo": 1800,
+  "f_hi": 4000,
+  "chirp": 0.5,
+  "body": 1.0,
+  "wet": 0.12,
+  "seed": 301
+ },
+ "family": "nature",
+ "category": "emphasis",
+ "use": "a few drops before the rain; water on a surface",
+ "what": "Eight rain drops across 1.2 s, each an instant tick of 6-15 ms; the ones landing in water add a short ring rising in pitch. Built to measured drops.",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "water",
+  "drip",
+  "plink",
+  "weather"
+ ],
+ "loop": false
+}

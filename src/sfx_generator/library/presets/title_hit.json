@@ -1,0 +1,28 @@
+{
+ "id": "title_hit",
+ "recipe": "title_hit",
+ "params": {
+  "f0": 90,
+  "f1": 36,
+  "tau": 0.42,
+  "tail": 1.6,
+  "wet": 0.26,
+  "sparkle": 0.32,
+  "count": 12,
+  "seed": 8
+ },
+ "family": "cinematic",
+ "category": "title",
+ "use": "the intro title landing",
+ "what": "A deep impact with a quiet shimmer on top.",
+ "lead": 0.0,
+ "level_lu": 2,
+ "tags": [
+  "intro",
+  "title",
+  "logo",
+  "sting",
+  "hit"
+ ],
+ "loop": false
+}

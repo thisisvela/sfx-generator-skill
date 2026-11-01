@@ -1,0 +1,25 @@
+{
+ "id": "toggle",
+ "recipe": "toggle",
+ "params": {
+  "f1": 1406,
+  "f2": 1875,
+  "gap": 0.055,
+  "tau": 0.018,
+  "d": 0.15,
+  "seed": 113
+ },
+ "family": "interface",
+ "category": "ui",
+ "use": "a switch flips, a state changes",
+ "what": "Two quick bright blips a fourth apart (1.4 then 1.88 kHz): a state flips on.",
+ "lead": 0.0,
+ "level_lu": -6,
+ "tags": [
+  "switch on",
+  "flip",
+  "blip",
+  "state"
+ ],
+ "loop": false
+}

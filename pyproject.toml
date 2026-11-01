@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sfx-generator"
+version = "0.1.0"
+description = "Sound effects made in code: deterministic numpy recipes, a CLI, a tuning page and a skill that turns a short description into a finished sound."
+readme = "README.md"
+license = {text = "Apache-2.0"}
+authors = [{name = "Vela"}]
+requires-python = ">=3.10"
+keywords = ["sound effects", "sfx", "synthesis", "numpy", "procedural audio", "claude", "skill"]
+classifiers = [
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Multimedia :: Sound/Audio :: Sound Synthesis",
+]
+dependencies = ["numpy>=1.24", "scipy>=1.10", "soundfile>=0.12"]
+
+[project.optional-dependencies]
+ffmpeg = ["imageio-ffmpeg>=0.5"]
+plots = ["matplotlib>=3.7"]
+dev = ["pytest>=7", "imageio-ffmpeg>=0.5", "matplotlib>=3.7"]
+
+[project.scripts]
+sfx = "sfx_generator.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/thisisvela/sfx-generator-skill"
+Documentation = "https://thisisvela.github.io/sfx-generator-skill/"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+sfx_generator = ["tune/*.html", "site/*.css", "site/*.js", "site/*.mp3", "site/*.png", "library/presets/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

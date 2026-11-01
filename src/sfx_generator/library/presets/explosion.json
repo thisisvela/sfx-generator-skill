@@ -1,0 +1,29 @@
+{
+ "id": "explosion",
+ "recipe": "explosion",
+ "params": {
+  "d": 1.6,
+  "crack": 1.0,
+  "f0": 70,
+  "f1": 28,
+  "body_tau": 0.45,
+  "debris": 0.5,
+  "tail": 1.8,
+  "wet": 0.3,
+  "seed": 321
+ },
+ "family": "game",
+ "category": "reveal",
+ "use": "a close explosion; a blast",
+ "what": "A crack, a sub boom, a decaying roar, debris ticks and a long tail.",
+ "lead": 0.0,
+ "level_lu": -2,
+ "tags": [
+  "blast",
+  "bomb",
+  "boom",
+  "grenade",
+  "detonate"
+ ],
+ "loop": false
+}

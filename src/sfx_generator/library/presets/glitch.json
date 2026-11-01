@@ -1,0 +1,25 @@
+{
+ "id": "glitch",
+ "recipe": "glitch",
+ "params": {
+  "d": 0.075,
+  "count": 3,
+  "f_lo": 900,
+  "f_hi": 2600,
+  "band_hz": 3000,
+  "seed": 121
+ },
+ "family": "interface",
+ "category": "negative",
+ "use": "a short 75 ms digital glitch; glitch_burst is the longer, stronger one",
+ "what": "A tiny digital glitch: three crushed square bursts in 70 ms (glitch_burst is the longer one).",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "digital",
+  "tiny",
+  "corrupt",
+  "blip"
+ ],
+ "loop": false
+}

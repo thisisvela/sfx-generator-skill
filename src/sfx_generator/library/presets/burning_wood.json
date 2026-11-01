@@ -1,0 +1,26 @@
+{
+ "id": "burning_wood",
+ "recipe": "burning_wood",
+ "params": {
+  "d": 6.0,
+  "crackle": 10,
+  "roar": 1.0,
+  "seed": 345
+ },
+ "family": "game",
+ "category": "ambience",
+ "use": "a campfire or hearth under a scene (loop)",
+ "what": "A low roar that breathes, with seeded crackles and pops; a seamless 6 s loop.",
+ "lead": 0.0,
+ "level_lu": -16,
+ "tags": [
+  "fire",
+  "campfire",
+  "flame",
+  "crackle",
+  "loop",
+  "bed",
+  "hearth"
+ ],
+ "loop": true
+}

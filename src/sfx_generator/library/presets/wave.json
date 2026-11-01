@@ -1,0 +1,28 @@
+{
+ "id": "wave",
+ "recipe": "wave",
+ "params": {
+  "d": 3.5,
+  "crest": 0.42,
+  "f_lo": 220,
+  "f_hi": 1400,
+  "hiss": 0.5,
+  "pan_from": -0.4,
+  "pan_to": 0.4,
+  "seed": 303
+ },
+ "family": "nature",
+ "category": "emphasis",
+ "use": "one wave breaks and washes out; lead so the break lands on the cue",
+ "what": "A 3.5 s swell of band-passed noise that rises, breaks into foam and washes out along the shore.",
+ "lead": 1.5,
+ "level_lu": -4,
+ "tags": [
+  "sea",
+  "ocean",
+  "beach",
+  "surf",
+  "water"
+ ],
+ "loop": false
+}

@@ -1,0 +1,30 @@
+{
+ "id": "heartbeat_loop",
+ "recipe": "heartbeat_loop",
+ "params": {
+  "bpm": 72,
+  "beats": 4,
+  "f": 110,
+  "knock": 0.9,
+  "body": 0.8,
+  "gap": 0.28,
+  "tau": 0.1,
+  "seed": 224
+ },
+ "family": "foley",
+ "category": "emphasis",
+ "use": "a pulse under a scene: tension, fear, waiting (loop)",
+ "what": "Four beats at 72 a minute, each a lub-dub with a mid-range knock and chest body; a seamless 3.3 s loop.",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "heart",
+  "pulse",
+  "tension",
+  "fear",
+  "loop",
+  "bed",
+  "lub dub"
+ ],
+ "loop": true
+}

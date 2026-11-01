@@ -1,0 +1,30 @@
+{
+ "id": "impact_deep",
+ "recipe": "impact",
+ "params": {
+  "d": 1.8,
+  "f0": 80.0,
+  "f1": 34.0,
+  "tau": 0.45,
+  "knock": 0.28,
+  "bright": 1800.0,
+  "tail": 1.8,
+  "wet": 0.25,
+  "seed": 22
+ },
+ "family": "cinematic",
+ "category": "reveal",
+ "use": "the one big reveal of the video",
+ "what": "A deeper, longer impact: sub tone falling 80 -> 34 Hz.",
+ "lead": 0.0,
+ "level_lu": -2,
+ "tags": [
+  "boom",
+  "big",
+  "trailer",
+  "sub",
+  "hit"
+ ],
+ "loop": false,
+ "presence": 0.6
+}

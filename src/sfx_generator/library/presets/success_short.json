@@ -1,0 +1,27 @@
+{
+ "id": "success_short",
+ "recipe": "success_short",
+ "params": {
+  "f1": 1568.0,
+  "f2": 2093.0,
+  "gap": 0.06,
+  "note_d": 0.45,
+  "decay": 1.0,
+  "wet": 0.12,
+  "d": 0.55,
+  "seed": 117
+ },
+ "family": "interface",
+ "category": "positive",
+ "use": "a smaller win",
+ "what": "Two notes up a fourth, G6 then C7: a smaller win.",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "chime",
+  "small win",
+  "done",
+  "ok"
+ ],
+ "loop": false
+}

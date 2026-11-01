@@ -1,0 +1,26 @@
+{
+ "id": "zap",
+ "recipe": "zap",
+ "params": {
+  "d": 0.2,
+  "f_start": 2400,
+  "f_end": 180,
+  "q": 1.4,
+  "tau": 0.08,
+  "seed": 233
+ },
+ "family": "interface",
+ "category": "emphasis",
+ "use": "a laser, an electric hit, something zapped away",
+ "what": "A fast downward sweep of a filtered saw (2.4 kHz -> 180 Hz in 0.2 s).",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "laser",
+  "electric",
+  "shoot",
+  "pew",
+  "delete"
+ ],
+ "loop": false
+}

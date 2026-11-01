@@ -1,0 +1,27 @@
+{
+ "id": "alarm",
+ "recipe": "alarm",
+ "params": {
+  "f1": 880,
+  "f2": 660,
+  "period": 0.12,
+  "cycles": 3,
+  "lowpass_hz": 2400,
+  "decay": 0.6,
+  "seed": 202
+ },
+ "family": "interface",
+ "category": "negative",
+ "use": "a warning that needs attention",
+ "what": "An alternating two-tone square (880 / 660 Hz), low-passed, fading over three pairs.",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "warning",
+  "siren",
+  "alert",
+  "danger",
+  "beep"
+ ],
+ "loop": false
+}

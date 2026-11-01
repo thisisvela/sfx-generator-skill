@@ -1,0 +1,27 @@
+{
+ "id": "data_blips",
+ "recipe": "data_blips",
+ "params": {
+  "count": 12,
+  "d": 0.6,
+  "f_lo": 2000,
+  "f_hi": 5200,
+  "width": 0.5,
+  "seed": 241
+ },
+ "family": "interface",
+ "category": "ui",
+ "use": "data transferring; packets flowing",
+ "what": "Twelve seeded very short high blips across the stereo field in 0.6 s.",
+ "lead": 0.0,
+ "level_lu": -6,
+ "tags": [
+  "data",
+  "transfer",
+  "network",
+  "packets",
+  "loading",
+  "computer"
+ ],
+ "loop": false
+}

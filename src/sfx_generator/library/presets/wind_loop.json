@@ -1,0 +1,27 @@
+{
+ "id": "wind_loop",
+ "recipe": "wind_loop",
+ "params": {
+  "d": 8.0,
+  "f_lo": 220,
+  "f_hi": 900,
+  "whistle": 0.5,
+  "gust": 0.5,
+  "seed": 306
+ },
+ "family": "nature",
+ "category": "ambience",
+ "use": "wind under a scene (loop)",
+ "what": "Broad filtered noise with a slowly wandering whistle; a seamless 8 s loop.",
+ "lead": 0.0,
+ "level_lu": -16,
+ "tags": [
+  "wind",
+  "weather",
+  "air",
+  "loop",
+  "bed",
+  "howl"
+ ],
+ "loop": true
+}

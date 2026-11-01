@@ -1,0 +1,26 @@
+{
+ "id": "air_loop",
+ "recipe": "air_loop",
+ "params": {
+  "d": 4.0,
+  "f_lo": 300,
+  "f_hi": 600,
+  "lowpass_hz": 4000,
+  "seed": 262
+ },
+ "family": "ambience",
+ "category": "ambience",
+ "use": "room tone, air, a quiet bed under a whole beat (loop)",
+ "what": "Filtered pink noise with a slowly moving band; a seamless loop (crossfaded seam).",
+ "lead": 0.0,
+ "level_lu": -16,
+ "tags": [
+  "air",
+  "room tone",
+  "noise",
+  "wind",
+  "loop",
+  "bed"
+ ],
+ "loop": true
+}

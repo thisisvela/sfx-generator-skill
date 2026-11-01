@@ -1,0 +1,31 @@
+{
+ "id": "success",
+ "recipe": "success",
+ "params": {
+  "f1": 1046.5,
+  "f2": 1318.5,
+  "f3": 1568.0,
+  "f4": 2093.0,
+  "step": 0.065,
+  "note_d": 0.55,
+  "decay": 1.0,
+  "wet": 0.14,
+  "d": 0.85,
+  "seed": 116
+ },
+ "family": "interface",
+ "category": "positive",
+ "use": "a fix works; a problem is solved",
+ "what": "A rising four-note arpeggio, C6 E6 G6 C7, the last note ringing: a problem solved.",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "chime",
+  "arpeggio",
+  "win",
+  "solved",
+  "complete",
+  "achievement"
+ ],
+ "loop": false
+}

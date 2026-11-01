@@ -1,0 +1,26 @@
+{
+ "id": "shimmer",
+ "recipe": "shimmer",
+ "params": {
+  "d": 1.8,
+  "count": 14,
+  "lo": 1900,
+  "hi": 6800,
+  "spread": 0.75,
+  "seed": 6
+ },
+ "family": "cinematic",
+ "category": "emphasis",
+ "use": "an insight, a 'that's it' moment",
+ "what": "Fourteen short high sine pings at seeded pitches and times, spread across the stereo field, in reverb.",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "sparkle",
+  "magic",
+  "insight",
+  "glitter",
+  "twinkle"
+ ],
+ "loop": false
+}

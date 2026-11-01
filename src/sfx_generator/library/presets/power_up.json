@@ -1,0 +1,24 @@
+{
+ "id": "power_up",
+ "recipe": "power_up",
+ "params": {
+  "root": 523.25,
+  "step": 0.045,
+  "lowpass_hz": 5000,
+  "seed": 344
+ },
+ "family": "game",
+ "category": "positive",
+ "use": "a power-up collected; a boost",
+ "what": "A quick rising run of eight square notes up the scale, the last one ringing.",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "boost",
+  "upgrade",
+  "collect",
+  "bonus",
+  "arcade"
+ ],
+ "loop": false
+}

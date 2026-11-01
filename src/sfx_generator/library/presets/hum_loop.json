@@ -1,0 +1,28 @@
+{
+ "id": "hum_loop",
+ "recipe": "hum_loop",
+ "params": {
+  "f0": 55,
+  "d": 4.0,
+  "formant": 450,
+  "buzz": 0.6,
+  "fan": 0.5,
+  "breathe": 0.4,
+  "seed": 261
+ },
+ "family": "ambience",
+ "category": "ambience",
+ "use": "a machine room, a server, a bed under a whole beat (loop)",
+ "what": "A 55 Hz machine hum whose harmonics peak around 450 Hz, with a breathing fan bed; a seamless 4 s loop that is heard on a laptop.",
+ "lead": 0.0,
+ "level_lu": -16,
+ "tags": [
+  "hum",
+  "drone",
+  "machine",
+  "server",
+  "loop",
+  "bed"
+ ],
+ "loop": true
+}

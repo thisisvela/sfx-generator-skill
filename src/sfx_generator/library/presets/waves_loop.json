@@ -1,0 +1,26 @@
+{
+ "id": "waves_loop",
+ "recipe": "waves_loop",
+ "params": {
+  "d": 10.0,
+  "waves": 2,
+  "hiss": 0.5,
+  "bed": 0.25,
+  "seed": 304
+ },
+ "family": "nature",
+ "category": "ambience",
+ "use": "a beach under a scene (loop)",
+ "what": "Two waves per 10 s over a bed of distant surf; a seamless loop.",
+ "lead": 0.0,
+ "level_lu": -16,
+ "tags": [
+  "sea",
+  "ocean",
+  "beach",
+  "surf",
+  "loop",
+  "bed"
+ ],
+ "loop": true
+}

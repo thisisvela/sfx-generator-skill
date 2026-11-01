@@ -1,0 +1,25 @@
+{
+ "id": "swell_up",
+ "recipe": "swell_up",
+ "params": {
+  "f0": 1078,
+  "f1": 1640,
+  "d": 0.28,
+  "air": 0.25,
+  "wet": 0.12,
+  "seed": 122
+ },
+ "family": "interface",
+ "category": "camera",
+ "use": "a soft tonal lift with a push-in",
+ "what": "A soft tonal lift for a push-in: a tone and its fifth gliding up from 1.08 to 1.64 kHz, with a breath of air.",
+ "lead": 0.0,
+ "level_lu": -7,
+ "tags": [
+  "push-in",
+  "zoom in",
+  "lift",
+  "camera"
+ ],
+ "loop": false
+}

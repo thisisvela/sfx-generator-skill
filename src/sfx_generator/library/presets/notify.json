@@ -1,0 +1,27 @@
+{
+ "id": "notify",
+ "recipe": "notify",
+ "params": {
+  "f1": 1046.5,
+  "f2": 1318.5,
+  "gap": 0.09,
+  "note_d": 0.5,
+  "decay": 0.9,
+  "wet": 0.12,
+  "seed": 201
+ },
+ "family": "interface",
+ "category": "emphasis",
+ "use": "a message or alert arrives",
+ "what": "Two bell notes a major third apart (C6, E6), in a small room.",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "notification",
+  "alert",
+  "message",
+  "chime",
+  "ding"
+ ],
+ "loop": false
+}

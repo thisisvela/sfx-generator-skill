@@ -1,0 +1,27 @@
+{
+ "id": "ding",
+ "recipe": "ding",
+ "params": {
+  "f1": 523.25,
+  "f2": 783.99,
+  "gap": 0.07,
+  "decay": 1.0,
+  "wet": 0.14,
+  "d": 0.7,
+  "seed": 115
+ },
+ "family": "interface",
+ "category": "positive",
+ "use": "a check passes, an answer is right",
+ "what": "A bright two-note chime, C5 then G5: something is right.",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "chime",
+  "bell",
+  "correct",
+  "right",
+  "notification"
+ ],
+ "loop": false
+}

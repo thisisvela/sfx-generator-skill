@@ -1,0 +1,25 @@
+{
+ "id": "footsteps",
+ "recipe": "footsteps",
+ "params": {
+  "count": 6,
+  "interval": 0.42,
+  "surface_hz": 1800,
+  "heavy": 1.0,
+  "seed": 353
+ },
+ "family": "game",
+ "category": "ui",
+ "use": "walking; someone approaches",
+ "what": "Six seeded steps 0.42 s apart, alternating left and right.",
+ "lead": 0.0,
+ "level_lu": -6,
+ "tags": [
+  "steps",
+  "walk",
+  "walking",
+  "approach",
+  "feet"
+ ],
+ "loop": false
+}

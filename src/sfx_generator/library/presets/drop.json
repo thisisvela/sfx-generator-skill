@@ -1,0 +1,23 @@
+{
+ "id": "drop",
+ "recipe": "drop",
+ "params": {
+  "f": 1500,
+  "tau": 0.05,
+  "wet": 0.18,
+  "seed": 252
+ },
+ "family": "foley",
+ "category": "appear",
+ "use": "a single value drops in; a water drop",
+ "what": "A tiny tick and a short plink gliding down (1.5 kHz -> 900 Hz), in a small room.",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "water",
+  "plink",
+  "drip",
+  "droplet"
+ ],
+ "loop": false
+}

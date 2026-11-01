@@ -1,0 +1,25 @@
+{
+ "id": "sword_swing",
+ "recipe": "sword_swing",
+ "params": {
+  "d": 0.32,
+  "f_peak": 3200,
+  "ring": 0.25,
+  "seed": 330
+ },
+ "family": "game",
+ "category": "emphasis",
+ "use": "a blade swung through the air",
+ "what": "A fast metallic whoosh with a thin high ring.",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "sword",
+  "blade",
+  "slash",
+  "swing",
+  "whoosh",
+  "swish"
+ ],
+ "loop": false
+}

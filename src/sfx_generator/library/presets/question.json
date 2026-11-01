@@ -1,0 +1,25 @@
+{
+ "id": "question",
+ "recipe": "question",
+ "params": {
+  "f1": 659.25,
+  "f2": 880,
+  "bend": 0.06,
+  "gap": 0.14,
+  "wet": 0.1,
+  "seed": 118
+ },
+ "family": "interface",
+ "category": "question",
+ "use": "the narration asks the viewer a question",
+ "what": "'Hmm?': a soft note, then a higher one that bends upwards at the end.",
+ "lead": 0.0,
+ "level_lu": -2,
+ "tags": [
+  "hmm",
+  "ask",
+  "curious",
+  "prompt"
+ ],
+ "loop": false
+}

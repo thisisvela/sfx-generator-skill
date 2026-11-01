@@ -1,0 +1,26 @@
+{
+ "id": "coin",
+ "recipe": "coin",
+ "params": {
+  "f1": 987.77,
+  "f2": 1318.5,
+  "gap": 0.07,
+  "lowpass_hz": 6000,
+  "decay": 0.18,
+  "seed": 231
+ },
+ "family": "interface",
+ "category": "positive",
+ "use": "a point scored; a reward collected",
+ "what": "Two quick square-ish notes (B5, E6), the second ringing.",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "reward",
+  "point",
+  "score",
+  "collect",
+  "pickup"
+ ],
+ "loop": false
+}

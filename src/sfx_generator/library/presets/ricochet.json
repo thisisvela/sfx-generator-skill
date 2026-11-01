@@ -1,0 +1,24 @@
+{
+ "id": "ricochet",
+ "recipe": "ricochet",
+ "params": {
+  "d": 0.45,
+  "f_start": 5200,
+  "f_end": 1400,
+  "q": 7,
+  "seed": 328
+ },
+ "family": "game",
+ "category": "emphasis",
+ "use": "a bullet glances off metal or rock",
+ "what": "A click, then a falling narrow whistle: pee-yow.",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "bullet",
+  "bounce",
+  "whistle",
+  "metal"
+ ],
+ "loop": false
+}

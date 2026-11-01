@@ -1,0 +1,11 @@
+interface:
+  display_name: Create a sound recipe
+  short_description: Add a new sound-effect recipe family with a parameter schema, a preset, tests and docs.
+  default_prompt: Add a new kind of sound to the sfx-generator library.
+policy:
+  allow_implicit_invocation: true
+dependencies:
+  tools:
+    - type: cli
+      value: sfx
+      description: The sfx-generator command, installed from a clone of the repository (pip install -e .[dev])

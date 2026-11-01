@@ -1,0 +1,26 @@
+{
+ "id": "pop_up",
+ "recipe": "pop_up",
+ "params": {
+  "d": 0.3,
+  "f0": 480,
+  "f1": 1550,
+  "tc": 0.07,
+  "tau": 0.06,
+  "wet": 0.06,
+  "seed": 103
+ },
+ "family": "interface",
+ "category": "appear",
+ "use": "something grows or rises into place",
+ "what": "A rising bloop: the pitch climbs well over an octave while it fades.",
+ "lead": 0.0,
+ "level_lu": -4,
+ "tags": [
+  "bloop",
+  "grow",
+  "rise",
+  "expand"
+ ],
+ "loop": false
+}
