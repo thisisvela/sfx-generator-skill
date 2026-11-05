@@ -100,7 +100,8 @@ def layout(title: str, body: str, page: str, base: str, description: str = "", q
            sections: list | None = None, jsonld: str = "") -> str:
     nav = [("index", "Home"), ("library", "Library"), ("use", "Use"), ("how-it-works", "How it works"),
            ("how-thunder-sounds", "Thunder"), ("faq", "FAQ"), ("licence", "Licence")]
-    links = "".join(f'<a href="{base}{k}.html"{" aria-current=\"page\"" if k == page else ""}>{v}</a>' for k, v in nav)
+    cur = lambda k: ' aria-current="page"' if k == page else ""
+    links = "".join(f'<a href="{base}{k}.html"{cur(k)}>{v}</a>' for k, v in nav)
     secs = ""
     if sections:
         secs = '<div class="sections"><div class="label">On this page</div>' + "".join(
@@ -315,6 +316,11 @@ def page_library(lib: dict, cat: dict, waves: dict, base: str, zips: dict) -> st
                   sections=[(f"fam-{f}", f.capitalize()) for f in FAMILY_ORDER], jsonld=jsonld_library(lib, cat))
 
 
+TUNE_PING_BLOCK = code_block("sfx tune ping                       # a library sound\nsfx tune assets/sfx/chime/success_b.json   # one of your variants", "by hand", True)
+
+THUNDER_TRY_BLOCK = code_block("sfx tune thunder\nsfx render thunder clusters=2 per_cluster=3 surge=0.8 -o storm", "try it", True)
+
+
 def page_use(lib: dict, base: str) -> str:
     tr = "".join(f"<tr><td class=\"m\">{esc(k)}</td><td class=\"m\">{esc(v or '—')}</td></tr>" for k, v in levels.TRANSITION_SFX.items())
     lv = "".join(f"<tr><td class=\"m\">{esc(k)}</td><td class=\"m\">{v:+d}</td></tr>" for k, v in levels.CATEGORY_LU.items())
@@ -357,7 +363,7 @@ redo b with less room and a longer tail''', "things to ask")}
   <p>Ask for it: <em class="serif">open the tuning page for variant b</em>, or <em class="serif">let me tune the ping</em>. The skill runs <code>sfx tune &lt;preset&gt;</code>, which starts a local page at <code>http://127.0.0.1:8765</code> and opens it in your browser (it prints the address if it cannot). The sliders come from the recipe's schema; every change is rendered by the same Python code and comes back with the numbers, a waveform and a spectrogram, usually well under 300 ms for short sounds.</p>
   <figure class="figure shot"><img src="{base}tune.png" alt="The tuning page for the ping preset: sliders for every parameter on the left; play, A/B and level controls, the waveform, the spectrogram and the measured numbers on the right" width="1280" height="900" loading="lazy"><figcaption>The tuning page for <code>ping</code>: every parameter of the recipe on the left, the rendered waveform, spectrogram and numbers on the right. Save preset writes the JSON; Export writes WAV, OGG and MP3.</figcaption></figure>
   <p>On the page: A/B against the original, loop, in-video level and over-narration playback, stereo width and a left/right offset with a mono-sum check, gain, and the preset's category, lead and use. Nothing is written until you press <b>Save preset</b> or <b>Export</b>; tell the agent when you are done and it stops the server and picks up the saved preset.</p>
-  {code_block("sfx tune ping                       # a library sound\nsfx tune assets/sfx/chime/success_b.json   # one of your variants", "by hand", True)}
+  {TUNE_PING_BLOCK}
   </section>
 
   <section id="video"><h2>Placing sounds in video</h2>
@@ -688,7 +694,7 @@ def page_thunder(lib: dict, cat: dict, waves: dict, base: str) -> str:
 
   <section id="make"><h2>Make your own</h2>
   <p>Everything above is a parameter. <code>sfx tune thunder</code> opens the tuning page with sliders for the approach length, the number of clusters and strikes per cluster, the rumble length, overlap, backoff and growth, the secondary peal, the surge, the tail and the seed; <code>clap</code> at 0 brings the crackle-crack back. <code>sfx render thunder clusters=1 per_cluster=1</code> is a single distant strike; <code>sfx render thunder seed=42</code> is the same storm on another night. The recipe is <code>recipes/nature.py</code> in the repository, Apache 2.0, and the measurements and scripts behind this page are in the skill's references.</p>
-  {code_block("sfx tune thunder\nsfx render thunder clusters=2 per_cluster=3 surge=0.8 -o storm", "try it", True)}
+  {THUNDER_TRY_BLOCK}
   </section>
 </main>"""
     sections = [("measure", "Measurements"), ("rumble", "Rumble"), ("crack", "Crack"), ("clusters", "Clusters"), ("weight", "Weight"), ("listen", "Listen"), ("make", "Make your own")]
