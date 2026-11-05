@@ -4,7 +4,12 @@ the sounds shipped before this package existed.
 The float32 hashes below were taken when the port was verified sample for sample against the original generator.
 If a hash changes, a recipe's numbers changed: either revert, or (if the change is intended and approved by ear)
 update the hash and say so in the commit. The OGG comparison is encoder-tolerant, since libvorbis builds differ.
+
+The exact hashes are bit-level fingerprints taken on Windows; numpy/scipy on another OS or BLAS can differ in the last
+bits of a float (inaudible), so there the exact check is skipped and the OGG comparison and the run-to-run identity
+test guard the sound.
 """
+import sys
 from pathlib import Path
 
 import numpy as np
@@ -32,6 +37,7 @@ ALL = presets.load_all()
 REF_DIR = Path(__file__).resolve().parent / "reference"
 
 
+@pytest.mark.skipif(sys.platform != "win32", reason="bit-exact hashes were taken on Windows")
 @pytest.mark.parametrize("sid", sorted(HASHES))
 def test_reference_hash(sid):
     assert render.array_hash(ALL[sid].render()) == HASHES[sid]

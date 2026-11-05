@@ -91,7 +91,8 @@ def head_meta(title: str, description: str, page: str, jsonld: str = "") -> str:
                    "<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}"
                    f"gtag('js',new Date());gtag('config','{ga}');</script>")
     if jsonld:
-        out.append(f'<script type="application/ld+json">{jsonld.replace("</", "<\\/")}</script>')
+        safe = jsonld.replace("</", "<\\/")      # the data cannot close its own script block
+        out.append(f'<script type="application/ld+json">{safe}</script>')
     return "\n".join(out)
 
 
